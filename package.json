@@ -1,0 +1,37 @@
+{
+  "name": "@sergueyarellano/aws-cache-schema",
+  "version": "1.0.0",
+  "description": "cache aws glue schema registry definitions",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "postversion": "git push && git push --tags",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergueyarellano/aws-cache-schema.git"
+  },
+  "keywords": [
+    "aws",
+    "glue",
+    "schema",
+    "registry",
+    "cache"
+  ],
+  "author": "sergueyarellano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergueyarellano/aws-cache-schema/issues"
+  },
+  "homepage": "https://github.com/sergueyarellano/aws-cache-schema#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.1107.0",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.6.3"
+  }
+}
