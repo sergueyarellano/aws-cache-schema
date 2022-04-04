@@ -22,7 +22,9 @@ function cacheSchema (RegistryName: string, region: string): CacheSchema {
       let definition = ''
       if (schema[SchemaName] == null) {
         this.schemas[SchemaName] = {}
-      } else if (schema[SchemaName][VersionNumber] != null) {
+      }
+
+      if (schema[SchemaName][VersionNumber] != null) {
         definition = schema[SchemaName][VersionNumber]
       } else {
         // get Schema from glue
