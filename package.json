@@ -1,6 +1,6 @@
 {
   "name": "@sergueyarellano/aws-cache-schema",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cache aws glue schema registry definitions",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
