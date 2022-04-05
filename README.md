@@ -1,6 +1,8 @@
 aws-cache-schema
 ===
 
+AWS cache for glue schema registry.
+
 aws-cache-schema will check if the definition of the schema is cached and will get it and cache it for you if not present
 
 ```js
